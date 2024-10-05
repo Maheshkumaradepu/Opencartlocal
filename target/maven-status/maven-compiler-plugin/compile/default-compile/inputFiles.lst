@@ -1,10 +1,10 @@
-D:\Localopencart\opencartmodel\src\main\java\pageObjects\AccountPage.java
-D:\Localopencart\opencartmodel\src\main\java\pageObjects\AccRegistrationPage.java
-D:\Localopencart\opencartmodel\src\main\java\pageObjects\Basepage.java
-D:\Localopencart\opencartmodel\src\main\java\pageObjects\Homepage.java
-D:\Localopencart\opencartmodel\src\main\java\pageObjects\LoginPage.java
-D:\Localopencart\opencartmodel\src\main\java\pageObjects\LogoutPage.java
-D:\Localopencart\opencartmodel\src\main\java\testBase\BaseClass.java
 D:\Localopencart\opencartmodel\src\main\java\utilities\DataProviders.java
+D:\Localopencart\opencartmodel\src\main\java\pageObjects\AccountPage.java
+D:\Localopencart\opencartmodel\src\main\java\pageObjects\LogoutPage.java
+D:\Localopencart\opencartmodel\src\main\java\pageObjects\Homepage.java
+D:\Localopencart\opencartmodel\src\main\java\testBase\BaseClass.java
+D:\Localopencart\opencartmodel\src\main\java\pageObjects\Basepage.java
 D:\Localopencart\opencartmodel\src\main\java\utilities\ExcelUtility.java
 D:\Localopencart\opencartmodel\src\main\java\utilities\ExtentReportManager.java
+D:\Localopencart\opencartmodel\src\main\java\pageObjects\AccRegistrationPage.java
+D:\Localopencart\opencartmodel\src\main\java\pageObjects\LoginPage.java

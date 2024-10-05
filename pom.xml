@@ -71,7 +71,12 @@
 			<version>4.24.0</version>
 		</dependency>
 
-
+<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.7.0</version> 
+			<scope>compile</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>org.junit</groupId>
@@ -119,12 +124,7 @@
 
 		<!-- TestNG -->
 
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.7.0</version> 
-			<scope>test</scope>
-		</dependency>
+		
 		<!-- Commons Dependencies -->
 		<dependency>
 			<groupId>commons-io</groupId>

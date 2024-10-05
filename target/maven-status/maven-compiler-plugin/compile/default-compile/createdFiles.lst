@@ -1,0 +1,10 @@
+pageObjects\LogoutPage.class
+pageObjects\AccountPage.class
+pageObjects\AccRegistrationPage.class
+pageObjects\Basepage.class
+pageObjects\LoginPage.class
+utilities\ExtentReportManager.class
+pageObjects\Homepage.class
+utilities\DataProviders.class
+utilities\ExcelUtility.class
+testBase\BaseClass.class
