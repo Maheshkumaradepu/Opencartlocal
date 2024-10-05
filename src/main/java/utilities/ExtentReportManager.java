@@ -112,7 +112,7 @@ public class ExtentReportManager implements ITestListener {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		try {
+	/*	try {
 			File file = new File(System.getProperty("user.dir") + "\\reports\\" + repName);
 			URL url = file.toURI().toURL();
 
@@ -127,11 +127,12 @@ public class ExtentReportManager implements ITestListener {
 			// Sender email.setSubject("Test Results");
 			email.setMsg("Please find Attached Report....");
 			email.addTo("adepumahesh842@gmail.com"); // Receiver
-			email.attach(url, "extent report", "please check report...");
+			email.attach(url, "extent report",s "please check report...");
 			email.send(); // send the email
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+*/
 
 	}
 

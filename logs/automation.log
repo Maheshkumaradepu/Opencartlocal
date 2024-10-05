@@ -1,0 +1,20 @@
+2024-10-06 00:03:11 INFO  Tc01_AccountRegistractionTest:15 - *****TEST STARTED*****
+2024-10-06 00:03:12 INFO  Tc01_AccountRegistractionTest:18 - *****MYACC LINK*****
+2024-10-06 00:03:13 INFO  Tc01_AccountRegistractionTest:21 - *****REGISTER LINK*****
+2024-10-06 00:03:18 INFO  Tc01_AccountRegistractionTest:33 - ***** Message Validation *****
+2024-10-06 00:03:18 INFO  Tc01_AccountRegistractionTest:46 - *****TEST FINISHED*****
+2024-10-06 00:03:23 INFO  Tc02_LoginTest:15 - ****Starting Tc02_LoginTest******** 
+2024-10-06 00:03:23 INFO  Tc02_LoginTest:17 - ****Entering Homepage******** 
+2024-10-06 00:03:23 INFO  Tc02_LoginTest:19 - ****Clicking MyAccount ******** 
+2024-10-06 00:03:23 INFO  Tc02_LoginTest:21 - ****Clicking login ******** 
+2024-10-06 00:03:24 INFO  Tc02_LoginTest:23 - ****Entering loginPage and entering details ******** 
+2024-10-06 00:03:25 INFO  Tc02_LoginTest:28 - ****Entering Account Page after Login ******** 
+2024-10-06 00:03:26 INFO  Tc02_LoginTest:43 - *****TEST FINISHED*****
+2024-10-06 00:03:31 INFO  Tc03_LoginDDT:19 - **** Clicking MyAccount ******** 
+2024-10-06 00:03:31 INFO  Tc03_LoginDDT:21 - **** Clicking login ******** 
+2024-10-06 00:03:32 INFO  Tc03_LoginDDT:23 - **** Entering loginPage and entering details ******** 
+2024-10-06 00:03:32 INFO  Tc03_LoginDDT:30 - **** Verifying login outcome ******** 
+2024-10-06 00:03:36 INFO  Tc03_LoginDDT:19 - **** Clicking MyAccount ******** 
+2024-10-06 00:03:36 INFO  Tc03_LoginDDT:21 - **** Clicking login ******** 
+2024-10-06 00:03:38 INFO  Tc03_LoginDDT:23 - **** Entering loginPage and entering details ******** 
+2024-10-06 00:03:39 INFO  Tc03_LoginDDT:30 - **** Verifying login outcome ******** 
