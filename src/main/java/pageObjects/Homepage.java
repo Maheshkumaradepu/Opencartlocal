@@ -34,4 +34,8 @@ public class Homepage extends Basepage {
 	public void login() {
 		loginBtn.click();
 	}
+
+	public WebElement element() {
+		return myAccount;
+	}
 }

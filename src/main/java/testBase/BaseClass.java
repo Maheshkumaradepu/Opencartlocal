@@ -31,9 +31,9 @@ public class BaseClass {
 	public Logger logger;
 	Properties p;
 
-	@BeforeClass(groups = { "sanity", "Regression", "Master", "Datadriven" })
+	@BeforeClass(groups = { "sanity", "Regression", "Master", "Datadriven" ,"special"})
 	@Parameters({ "os", "browser" })
-	public void setup(String os, String browser) throws IOException {
+	public void setup(String os, String browser) throws IOException {    
 
 		// loading config file
 
@@ -60,10 +60,13 @@ public class BaseClass {
 				cap.setBrowserName("chrome");
 				break;
 			case "firefox":
-				driver = new FirefoxDriver();
+				
+				cap.setBrowserName("firefox");
+			//	driver = new FirefoxDriver();
 				break;
 			case "edge":
-				driver = new EdgeDriver();
+				cap.setBrowserName("edge");
+			//	driver = new EdgeDriver();
 				break;
 			default:
 				System.out.println("INVALID BROWSER");
@@ -89,8 +92,9 @@ public class BaseClass {
 		}
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(p.getProperty("appUrl"));
 		driver.manage().window().maximize();
+		driver.get(p.getProperty("appUrl"));
+		
 
 	}
 
@@ -116,7 +120,7 @@ public class BaseClass {
 		return p.getProperty("password");
 	}
 
-	@AfterClass(groups = { "sanity", "Regression", "Master", "Datadriven" })
+	@AfterClass(groups = { "sanity", "Regression", "Master", "Datadriven","special" })
 	public void teardown() {
 		driver.quit();
 	}
@@ -132,7 +136,6 @@ public class BaseClass {
 		File targetFile = new File(targetFilePath);
 
 		sourceFile.renameTo(targetFile);
-
 		return targetFilePath;
 
 	}

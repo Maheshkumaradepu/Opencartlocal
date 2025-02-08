@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<include name="sanity" />
+			<include name="special" />
 		</run>
 	</groups>
 
@@ -18,6 +18,7 @@
 			<class name="testcases.Tc01_AccountRegistractionTest" />
 			<class name="testcases.Tc03_LoginDDT" />
 			<class name="testcases.Tc02_LoginTest" />
+			<class name="testcases.HighLightElement" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
